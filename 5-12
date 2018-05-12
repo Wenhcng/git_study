@@ -1,0 +1,11 @@
+5-12
+cd ~ 加目录
+测试环境 192.168.1.50:3000, 192.168.1.51:3000
+
+echo "# Git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Wenhcng/Git.git
+git push -u origin master
+
