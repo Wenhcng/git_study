@@ -1,5 +1,5 @@
 LAMP环境搭建 编译安装
-
+/////
 Apache安装:yum install httpd
 centOs7下使用systemctl命令：
 自动开启apache  systemctl enabled httpd
