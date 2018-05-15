@@ -1,0 +1,17 @@
+LAMP环境搭建 编译安装
+
+Apache安装:yum install httpd
+centOs7下使用systemctl命令：
+自动开启apache  systemctl enabled httpd
+重启apache  systemctl restart/reload httpd
+
+导入mysql文件到服务器：
+mysql 数据库名 < xxx.sql &(后台运行)
+如：mysql -uroot-p test <test.sql &
+
+
+
+
+php -m 查看扩展
+netstat -ntpl 查看网络端口信息
+systemctl stop firewalld 关闭防火墙
